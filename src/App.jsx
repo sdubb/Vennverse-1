@@ -67,7 +67,7 @@ const App = ({ isServerInfo }) => {
   }, [isAuthenticated, isWeb3Enabled]);
 
   return (
-    <Layout style={{ height: "100vh", overflow: "auto" }}>
+    <Layout style={{ height: "auto", overflow: "auto" }}>
       <Router>
         <Header style={styles.header}>
           <Logo />
